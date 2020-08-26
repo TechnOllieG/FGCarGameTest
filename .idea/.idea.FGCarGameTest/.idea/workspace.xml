@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f902fc-3b62-45f1-8361-7472733386fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Art/turret_one_pipe.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Art/turret_one_pipe.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Script/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Script/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Script/WeaponController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Script/WeaponController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +44,21 @@
         <option value="$PROJECT_DIR$/Assets/Game/Script/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Script/FollowScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Script/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Script/WeaponController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1gdQmxtPOWnX7OTojoVMCGfsbce" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -84,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598442154841</updated>
-      <workItem from="1598442177669" duration="2126000" />
+      <workItem from="1598442177669" duration="6912000" />
     </task>
     <servers />
   </component>
@@ -105,6 +112,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598447321929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598447321929" />
   </component>
 </project>

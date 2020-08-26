@@ -5,18 +5,38 @@ namespace FG
     [RequireComponent(typeof(MovementController))]
     public class PlayerInput : MonoBehaviour
     {
-        private MovementController movement;
-        private Camera playerCamera;
+        private MovementController _movement;
+        private WeaponController _weapon;
+        private Camera _playerCamera;
+
+        #region InputIDs
+        private const string _turnID = "Turn";
+        private const string _driveID = "Drive";
+        private const string _brakeID = "Brake";
+        private const string _fireID = "Fire1";
+        #endregion InputIDs
+        
 
         private void Awake()
         {
-            movement = GetComponent<MovementController>();
-            playerCamera = Camera.main;
+            _movement = GetComponent<MovementController>();
+            _playerCamera = Camera.main;
+            _weapon = GetComponent<WeaponController>();
         }
         private void Update()
         {
-            movement.movementInput.Set(Input.GetAxis("Turn"), Input.GetAxis("Drive"));
-            movement.IsBraking = Input.GetButton("Brake");
+            _movement.movementInput.Set(Input.GetAxis("Turn"), Input.GetAxis("Drive"));
+            _movement.IsBraking = Input.GetButton("Brake");
+            _weapon.aimAtPosition = _playerCamera.ScreenToWorldPoint(Input.mousePosition);
+
+            if (Input.GetButtonDown(_fireID))
+            {
+                _weapon.StartShooting();
+            }
+            else if(Input.GetButtonUp(_fireID))
+            {
+                _weapon.StopShooting();
+            }
         }
     }
 }
