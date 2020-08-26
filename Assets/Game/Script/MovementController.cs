@@ -73,7 +73,8 @@ namespace FG
                 return;
             }
 
-            desiredTurnSpeed = movementInput.x * (movementInput.x < 0f ? maxTurnPower : -maxTurnPower);
+            //desiredTurnSpeed = movementInput.x * (movementInput.x < 0f ? maxTurnPower : -maxTurnPower);
+            desiredTurnSpeed = movementInput.x * -maxTurnPower;
             turnSpeed = Mathf.MoveTowards(turnSpeed, desiredTurnSpeed, baseTurnSpeed * Time.fixedDeltaTime);
             rb.AddTorque(desiredTurnSpeed);
         }
