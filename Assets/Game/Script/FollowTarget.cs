@@ -7,7 +7,7 @@ public class FollowTarget : MonoBehaviour
     public float smoothTime = 0.3f;
     public Vector3 offset = Vector3.zero;
 
-    private float _velocity;
+    private Vector3 _velocity;
     private Transform _transform;
 
     private void Awake()
@@ -20,9 +20,9 @@ public class FollowTarget : MonoBehaviour
         _transform.position = target.position + offset;
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
         Vector3 targetPosition = target.TransformPoint(offset);
-        //_transform.position = Vector3.SmoothDamp(_transform.position, targetPosition, ref velocity, smoothTime);
+        _transform.position = Vector3.SmoothDamp(_transform.position, targetPosition, ref _velocity, smoothTime);
     }
 }

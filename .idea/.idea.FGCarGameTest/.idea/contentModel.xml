@@ -11,6 +11,7 @@
             <e p="FollowTarget.cs" t="Include" />
             <e p="MovementController.cs" t="Include" />
             <e p="PlayerInput.cs" t="Include" />
+            <e p="WeaponController.cs" t="Include" />
           </e>
         </e>
       </e>

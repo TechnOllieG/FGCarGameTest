@@ -22,6 +22,8 @@
     <list default="true" id="c9f902fc-3b62-45f1-8361-7472733386fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FGCarGameTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +33,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Script/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Game/Script/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Script/FollowScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Script/FollowTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Script/WeaponController.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598442154841</updated>
-      <workItem from="1598442177669" duration="759000" />
+      <workItem from="1598442177669" duration="2126000" />
     </task>
     <servers />
   </component>
